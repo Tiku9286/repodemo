@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite123" thread-count="2"> 
+
+  <test name="EdgeTest">
+   <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="testng2.TestNg2"/>
+      <class name="testng2.TestNg"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="ChromeTest">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testng2.TestNg2"/>
+      <class name="testng2.TestNg"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
