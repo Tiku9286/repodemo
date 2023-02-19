@@ -27,9 +27,7 @@ public static void main(String[] args) throws InterruptedException {
            
           WebElement mob = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")); 
           mob.sendKeys("samsung note 20 ultra");
-	 mob.sendKeys("samsung note 20 ultra");
-	 mob.sendKeys("samsung note 20 ultra");
-	 mob.sendKeys("samsung note 20 ultra");
+	
         
           
            WebElement srch = driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")); 
