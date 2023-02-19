@@ -27,11 +27,7 @@ public static void main(String[] args) throws InterruptedException {
            
           WebElement mob = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")); 
           mob.sendKeys("samsung note 20 ultra");
-	 mob.sendKeys("samsung note 20 ultra");
-	 mob.sendKeys("samsung note 20 ultra");
-	 mob.sendKeys("samsung note 20 ultra");
-        
-          
+	
            WebElement srch = driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")); 
           srch.click();
           
@@ -54,7 +50,7 @@ public static void main(String[] args) throws InterruptedException {
            WebElement proceed = driver.findElement(By.xpath(" //span[@id='attach-sidesheet-checkout-button']")); 
            proceed.click(); 
           
-           
+           system.out.println("hello")
            
            
            
